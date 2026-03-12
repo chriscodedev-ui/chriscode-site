@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -45,10 +46,19 @@ padding:30px;
 border-radius:16px;
 width:260px;
 box-shadow:0 10px 30px rgba(0,0,0,0.3);
+transition:transform .2s;
+}
+
+.card:hover{
+transform:translateY(-5px);
 }
 
 .card h2{
 margin-top:0;
+}
+
+.project{
+margin:8px 0;
 }
 
 a{
@@ -61,7 +71,7 @@ text-decoration:underline;
 }
 
 button{
-margin-top:15px;
+margin-top:12px;
 padding:10px 18px;
 border-radius:8px;
 border:none;
@@ -80,6 +90,7 @@ color:#7f96c3;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -92,21 +103,41 @@ color:#7f96c3;
 Developer • Apps • Tools
 </div>
 
-
 <div class="cards">
 
 <div class="card">
+
 <h2>Projects</h2>
 
-<p>📅 Planora</p>
-<p>🏍️ Biker Club App</p>
-<p>⚡ LOVE4ALL Tools</p>
-<p>📊 FlowScope</p>
+<div class="project">
+📅 <a href="https://github.com/chriscodedev-ui/planora" target="_blank">
+Planora
+</a>
+</div>
+
+<div class="project">
+🏍️ <a href="https://github.com/chriscodedev-ui/biker-club-app" target="_blank">
+Biker Club App
+</a>
+</div>
+
+<div class="project">
+⚡ <a href="https://github.com/chriscodedev-ui/love4all-tools" target="_blank">
+LOVE4ALL Tools
+</a>
+</div>
+
+<div class="project">
+📊 <a href="https://github.com/chriscodedev-ui/flowscope" target="_blank">
+FlowScope
+</a>
+</div>
 
 </div>
 
 
 <div class="card">
+
 <h2>GitHub</h2>
 
 <p>
@@ -123,6 +154,7 @@ Voir GitHub
 
 
 <div class="card">
+
 <h2>Contact</h2>
 
 <p>
